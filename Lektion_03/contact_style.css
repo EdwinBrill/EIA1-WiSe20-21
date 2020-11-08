@@ -1,0 +1,25 @@
+li {
+    color: white;
+    text-shadow: -1px 2px black;
+}
+
+div.sticky {
+    position: fixed;
+    top: 0%;
+    right: 15%;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    margin: 25px;
+    overflow: visible;
+}
+
+body {
+    background-image: url(assets/Bilder/bg.png);
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+#links {
+    right: 0px;
+}
