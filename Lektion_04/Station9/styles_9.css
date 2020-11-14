@@ -1,0 +1,61 @@
+body {
+    background-image: url(assets/bg.png);
+    display: flex;
+    height: 850px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mitte {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    top: 350px;
+    left: 500px;
+}
+
+.flocken {
+    position: absolute;
+}
+
+
+.flocke_1 {
+    position: absolute; 
+    animation-name: schneeflocke_1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    left: 210px;
+}
+
+@keyframes schneeflocke_1 {
+    0% {
+        top: -185px;
+    }
+
+    100% {
+        top: 145px;
+    }
+}
+
+.flocke_2 {
+    position: absolute; 
+    animation-name: schneeflocke_2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    left: 230px;  
+}
+
+@keyframes schneeflocke_2 {
+    0% {
+        top: -185px;
+    }
+
+    100% {
+        top: 145px;
+    }
+}

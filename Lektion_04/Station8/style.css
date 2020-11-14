@@ -1,0 +1,32 @@
+body {
+    background-image: url(assets/bg.png);
+    display: flex;
+    height: 850px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mitte {
+    position: relative;
+}
+
+.player iframe {
+    position: absolute;
+    top: 40;
+    left: 55;
+}
+
+.position {
+    top: 38px;
+    left: 38px;
+}
+
+.schleife img {
+    position: absolute;
+}
+
+.ecke {
+    top: 270px;
+    left: 370px;
+    z-index: 1;
+}

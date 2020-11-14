@@ -1,0 +1,71 @@
+body {
+    background-image: url(../Station3/assets/bg.png);
+    display: flex;
+    height: 850px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.wrapper {
+    position: relative;
+}
+
+.sterne img {
+    position: absolute;
+}
+
+.stern_1 {
+    top: 215px;
+    left: 45px;
+}
+
+.stern_2 {
+    top: 130px;
+    left: 140px;
+}
+
+.stern_3 {
+    top: 270px;
+    left: 250px;
+}
+
+.stern_4 {
+    bottom: 130px;
+    right: 115px;
+}
+
+.stern_4:hover {
+    background: transparent url(../Station3/assets/stern_hover.png) no-repeat 0 0;
+}
+
+.stern_3:hover {
+    background: transparent url(../Station3/assets/stern_hover.png) no-repeat 0 0;
+}
+
+.stern_2:hover {
+    background: transparent url(../Station3/assets/stern_hover.png) no-repeat 0 0;
+}
+
+.stern_1:hover {
+    background: transparent url(../Station3/assets/stern_hover.png) no-repeat 0 0;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    color: white;
+    padding: 30px 20px 50px 40px;
+    font-size: 20px;
+}
+
+.wee {
+    position: absolute;
+    top: 33px;
+    left: 390px;
+    width: 50px;
+    height: 50px;
+}
+
+
