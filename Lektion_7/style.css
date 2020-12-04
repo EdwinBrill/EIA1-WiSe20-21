@@ -1,0 +1,44 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #2f4f4f;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Main{
+    width: 500px;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Main div{
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.Button1, .Button2, .Button3{
+    background-color: #B22222;
+}
+
+.Button4, .Button5, .Button6{
+    background-color: #F08080;
+}
+
+.Button7, .Button8, .Button9{
+    background-color: #228B22;
+}
+
+.play_button{
+    cursor: pointer;
+}
+
