@@ -1,0 +1,35 @@
+.isHidden {
+    display: none !important;
+}
+
+.fa-square{
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right:50px;
+    font-size: 15px;
+}
+.fa-square:hover {
+    cursor: pointer;
+}
+.fa-check-square{
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+}
+.fa-check-square:hover {
+    cursor: pointer;
+}
+.fa-trash-alt{
+    position: absolute;
+    margin-top: 20px;
+    left: 95%;
+    opacity: 50%;
+    font-size: 25px;
+    color: #78737e;
+    transition: all 0.4s ease-out;
+}
+.fa-trash-alt:hover {
+    cursor: pointer;
+    opacity: 100%;
+}
